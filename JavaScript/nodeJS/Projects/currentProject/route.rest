@@ -1,0 +1,26 @@
+GET http://localhost:3000/users
+
+
+###
+GET http://localhost:3000/users/6296e1912969e6924260b1d8
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Betty Jones",
+    "role": "Editor"   
+}
+
+###
+DELETE  http://localhost:3000/users/6296e1552969e6924260b1cc
+
+###
+PATCH http://localhost:3000/users/6296e1522969e6924260b1ca
+Content-Type: application/json
+
+{
+    "name": "Leila Anders"
+}
+
